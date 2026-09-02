@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kleeblatt Space | Dein digitaler Workspace",
-  description: "Die moderne Plattform für innovative Teams.",
+  title: "Kleeblatt Space | Tools for real games",
+  description: "Compact, transparent tools for game assets, pipelines, and playable worlds.",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de" className="antialiased">
+    <html lang="en" className="antialiased">
       <body>{children}</body>
     </html>
   );
